@@ -149,12 +149,12 @@ modules:
       - -DFETCHCONTENT_FULLY_DISCONNECTED=ON
       - -DFETCHCONTENT_BASE_DIR=deps
       - -DXRT_IPC_MSG_SOCK_FILENAME=wivrn/comp_ipc
-      - -DGIT_DESC=v0.19
+      - -DGIT_DESC=v0.19.1
       - -Wno-dev
     sources:
       - type: git
         url: https://github.com/WiVRn/WiVRn.git
-        tag: v0.19
+        tag: bcffadcd4e043d7bacd700b1331c2e98f96ca178
       - type: archive
         url: https://github.com/boostorg/pfr/archive/refs/tags/2.2.0.tar.gz
         dest: deps/boostpfr-src
